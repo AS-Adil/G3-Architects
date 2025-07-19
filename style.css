@@ -43,6 +43,8 @@ body{
     height: 65px; */
     padding:22px 50px ;
     border-radius: 8px;
+    border: none;
+    
 }
 
 
@@ -53,14 +55,15 @@ body{
 header{
     /* max-width: 1440px; */
     margin: 0px auto;
+
    
    
 }
 
 nav{
     max-width: 1440px;
-   margin: 0px auto;
-    border: 1px solid brown;
+   margin: 15px auto;
+    /* border: 1px solid brown; */
     justify-content: space-between;
     align-items: center;
     padding: 40px 0px;
@@ -83,21 +86,21 @@ nav{
     width:30%;
 }
 .nav-ul  {
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     width:100%;
     color: #424242;
     justify-content: space-around;
 }
 
 .banner{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     max-width: 1440px;
-    margin: 0px auto;
+    margin: 60px auto;
     text-align: center;
 }
 
 .banner-text{
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
      max-width: 860px;
      margin: 0px auto;
     text-align: center;
@@ -105,6 +108,7 @@ nav{
     justify-content: space-around;
     max-height:400px ;
     margin-top: 11px;
+    gap: 26px;
     
 
 }
@@ -121,9 +125,63 @@ nav{
 .banner img{
     width: 100%;
     
-    margin: 10px auto;
+    margin: 0px auto;
 }
 
+
+
+/* main section========= */
+
+
+main{
+    border: 1px solid black;
+    max-width: 1440px;
+    margin: 130px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-img{
+    border: 1px solid tomato;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 22px;
+}
+
+.features-sec{
+    border: 1px solid;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 72%;
+    margin: 0px auto;
+    
+}
+
+.features-sec h3{
+    font-size: 2.8rem;
+    font-weight: 600;
+
+
+
+}
+
+.quick{
+    color: #727272;
+}
+.of{
+    color: #131313;
+}
+.features{
+    color: rgba(255, 144, 14, 1);
+}
+
+
+.features-sec p{
+    color: #727272;
+}
 
 
 
