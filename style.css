@@ -185,19 +185,93 @@ nav{
 }
 
 
+/* features enjoy ==================== */
 
 
+.features-enjoy{
+    border: 1px solid tomato;
+    max-width: 1440px;
+    display: flex;
+    margin: 0px auto;
+}
+
+.enjoy-text{
+    width: 60%;
+    border: 1px solid aqua;
+}
+
+.enjoy-img{
+    width: 40%;
+
+}
+
+.enjoy-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
 
+.enjoy-tittle{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: bold;
+    border-left: 5px solid rgba(255, 144, 14, 1);
+    padding-left: 22px;
+}
 
+.enjoy-tittle-description{
+    width: 586px;
+    color: #727272;
 
+}
+
+.enjoy-card{
+    width:586px;
+    border-radius: 8px;
+    background-color:#FFFFFF;
+    /* text-align: left; */
+    padding: 30px;
+      box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+
+}
+
+.enjoy-card h3{
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 11px;
+}
+
+.enjoy-card p {
+    color: #727272;
+}
+
+.enjoy-img button{
+    /* width: 342px; */
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2rem;
+    padding: 40px;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.enjoy-img button span {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.enjoy-img img{
+    width: 94%;
+}
 
 
 
 /* ========Responsive========== */
 
 
-@media  screen and (max-width:576px) {
+@media  screen and (max-width: 575.98px) {
     nav{
         flex-direction: column;
     }
@@ -216,15 +290,22 @@ nav{
     .team{
         flex-direction: column;
         gap: 30px;
+        margin: 0px auto;
+        display: flex;
     }
     .team-img{
             grid-template-columns: repeat(1,1fr);
+            order:10;
     }
 
     .features-sec{
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+
+    .features-sec-container{
+        order: 5;
     }
 
     
