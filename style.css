@@ -103,6 +103,7 @@ nav{
     /* border: 1px solid tomato; */
      max-width: 860px;
      margin: 0px auto;
+     margin-bottom: 90px;
     text-align: center;
     flex-direction: column;
     justify-content: space-around;
@@ -228,6 +229,8 @@ nav{
 
 }
 
+
+
 .enjoy-card{
     width:586px;
     border-radius: 8px;
@@ -320,6 +323,7 @@ nav{
     }
     .enjoy-card{
         width: 83vw;
+        padding: 25px;
     }
     .enjoy-text, .enjoy-img{
         width: 100vw;
@@ -332,13 +336,14 @@ nav{
      .enjoy-img{
         display: flex;
         flex-direction: column;
+        width: 97vw;
      }
 
     .enjoy-img button{
 
         margin: 0px auto;
-        padding: 30px 40px;
-        margin-top: -9px;
+        padding: 12px;
+        margin-top: -2px;
 
     }
     
