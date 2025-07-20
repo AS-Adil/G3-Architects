@@ -283,19 +283,45 @@ nav{
 
 @media  screen and (max-width: 575.98px) {
     nav{
-        flex-direction: column;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        align-items: center;
     }
     .nav-ul{
-        flex-direction: column;
+        /* flex-direction: column; */
+        /* border: 1px solid tomato; */
         align-items: center;
-        gap: 6px;
+        gap: 7px;
+    }
+    .nav-links{
+        width: auto;
+    }
+
+    .nav-ul li{
+        font-size: 1.06rem;
+        font-weight: bolder;
     }
     .banner-brand{
-        font-size: 2.8rem;
+        font-size: 2rem;
     }
     .banner-text{
         gap: 15px;
     }
+
+    .nav-text h3{
+        font-size: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .nav-text h3 span{
+        display: block;
+        
+    }
+
 
     .team{
         flex-direction: column;
@@ -312,6 +338,9 @@ nav{
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+    .features-sec h3{
+        font-size: 2.1rem;
     }
 
     .features-sec-container{
@@ -351,14 +380,61 @@ nav{
 
 /* =====for mediam devices======= */
 
-@media screen and (min-width:576px) and (max-width:115px){
-
-    .team{
+@media screen and (min-width:576px) and (max-width:1115px){
+     .team{
+        /* border: 5px solid red; */
         flex-direction: column;
-        gap: 33px;
+        gap: 32px;
+        margin: 0px auto;
+     }
+    
+    .team-img{
+        grid-template-columns: repeat(2,1fr);
+    
+        
+    }
+
+    .features-sec-container{
+        order: 3;
+        
+    }
+
+    .team-img{
+        order: 4;
+    }
+
+    .features-sec{
         justify-content: center;
         align-items: center;
-        text-align: center;
     }
-    
+
+    .features-enjoy{
+        max-width: 99vw;
+        gap: 5px;
+        margin-top: 12vh;
+    }
+
+    .enjoy-tittle-description{
+        width: auto;
+    }
+    .enjoy-text{
+        width: 50%;
+    }
+    .enjoy-img{
+        width: 49%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .enjoy-card{
+        width: auto;
+    }
+
+    .enjoy-img button{
+        margin: -2px auto;
+        padding: 40px 50px;
+
+    }
+
 }
+
