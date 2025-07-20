@@ -218,11 +218,13 @@ nav{
     font-weight: bold;
     border-left: 5px solid rgba(255, 144, 14, 1);
     padding-left: 22px;
+    margin: 28px 0px;
 }
 
 .enjoy-tittle-description{
     width: 586px;
     color: #727272;
+    margin-bottom: 22px;
 
 }
 
@@ -233,6 +235,7 @@ nav{
     /* text-align: left; */
     padding: 30px;
       box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+      margin-bottom: 15px;
 
 }
 
@@ -263,8 +266,12 @@ nav{
 }
 
 .enjoy-img img{
-    width: 94%;
+    width: 100%;
+    /* max-height: 900px; */
 }
+
+
+
 
 
 
@@ -308,12 +315,37 @@ nav{
         order: 5;
     }
 
+    .features-enjoy{
+        flex-direction: column;
+    }
+    .enjoy-card{
+        width: 90vw;
+    }
+    .enjoy-text, .enjoy-img{
+        width: 100vw;
+    }
+    .enjoy-tittle-description{
+        width:96vw;
+    }
+
+     .enjoy-img{
+        display: flex;
+        flex-direction: column;
+     }
+
+    .enjoy-img button{
+
+        margin: 0px auto;
+        padding: 30px 40px;
+        margin-top: -9px;
+
+    }
     
 }
 
 /* =====for mediam devices======= */
 
-@media screen and (min-width:576px) and (max-width:992px){
+@media screen and (min-width:576px) and (max-width:115px){
 
     .team{
         flex-direction: column;
