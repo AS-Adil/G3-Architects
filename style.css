@@ -135,7 +135,7 @@ nav{
 
 
 .team{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     max-width: 1440px;
     margin: 130px auto;
     display: flex;
@@ -190,7 +190,7 @@ nav{
 
 
 .features-enjoy{
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     max-width: 1440px;
     display: flex;
     margin: 0px auto;
@@ -198,7 +198,7 @@ nav{
 
 .enjoy-text{
     width: 60%;
-    border: 1px solid aqua;
+    /* border: 1px solid aqua; */
 }
 
 .enjoy-img{
@@ -277,14 +277,14 @@ nav{
 /* facts section================= */
 
 .facts{
-    border: 1px solid deepskyblue;
+    /* border: 1px solid deepskyblue; */
     max-width: 1440px;
     margin: 0px auto;
 
 }
 
 .facts-text{
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
 }
 
 
@@ -340,7 +340,7 @@ nav{
 
 
 .sponsors{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     max-width: 1440px ;
     margin: 100px auto;
 
@@ -349,7 +349,7 @@ nav{
 
 .sponsors-text{
 
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     max-width: 540px;
     margin: 10px auto ;
     text-align: center;
